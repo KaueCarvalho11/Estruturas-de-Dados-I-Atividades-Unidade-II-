@@ -52,7 +52,7 @@ int main(){
 
     fprintf(arquivo_saida, "Menor elemento: %d\n", menor);
     fprintf(arquivo_saida, "Maior elemento: %d\n", maior);
-    fprintf(arquivo_saida, "Média dos elementos: %f", media);
+    fprintf(arquivo_saida, "Media dos elementos: %f", media);
 
     fclose(arquivo_saida);       
 }
