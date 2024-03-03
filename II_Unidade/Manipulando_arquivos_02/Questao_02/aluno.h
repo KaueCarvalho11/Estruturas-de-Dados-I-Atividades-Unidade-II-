@@ -7,12 +7,12 @@ typedef struct aluno{
 }Aluno;
 
 /* Função que aloca memória dinamicamente para um struct Aluno,
-recebe os dados via teclado e retorna um ponteiro para Aluno*/
+recebe os dados do aluno via teclado e retorna um ponteiro para Aluno*/
 Aluno *preenche(void);
 
 /* Função que realiza o cadastro de N funcionários*/
 Aluno *cadastra(int num_alunos);
 
-/* Função que abre um arquivo e imprime nele os dados de um aluno cadastrado */
+/* Função que abre um arquivo e imprime nele os dados dos aluno cadastrados */
 void imprime_arquivo (Aluno * estudante, int num_alunos);
 

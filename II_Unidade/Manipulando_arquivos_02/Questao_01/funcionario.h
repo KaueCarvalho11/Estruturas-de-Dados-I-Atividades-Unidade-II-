@@ -7,7 +7,7 @@ typedef struct Funcionario {
 }funcionario;
 
 /* Função que aloca memória dinamicamente para para um struct aluno,
-recebe dados via teclado e retorna um ponteiro para funcionario
+recebe dados do funcionário via teclado e retorna um ponteiro para funcionario
 */
 funcionario *preenche(void);
 
